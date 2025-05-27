@@ -53,16 +53,16 @@
     "motivation": "To uphoload the principles enshrined in the Cardano Blockchain Ecosystem Constitution!",
     "rationale": "This Council of 3 Members, are hope to be worthy enough for the task of being an efficient SanchoNet CC-member",
     "references": [
-    	{
-    		"@type": "Link",
-    		"label": "Website",
-    		"uri": "http://cardanocc.com"
-    	},
-    	{
-    		"@type": "Link",
-    		"label": "Upstream Twitter",
-    		"uri": "https://x.com/cardano_cc"
-    	}
+      {
+        "@type": "Link",
+        "label": "Website",
+        "uri": "http://cardanocc.com"
+      },
+      {
+        "@type": "Link",
+        "label": "Upstream Twitter",
+        "uri": "https://x.com/cardano_cc"
+      }
     ],
     "title": "The CCC on Sanchonet!"
   }
