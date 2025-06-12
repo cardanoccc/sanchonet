@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "@language": "en-us",
+        "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+        "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
+        "hashAlgorithm": "CIP100:hashAlgorithm",
+        "body": {
+            "@id": "CIP108:body",
+            "@context": {
+                "references": {
+                    "@id": "CIP108:references",
+                    "@container": "@set",
+                    "@context": {
+                        "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+                        "Other": "CIP100:OtherReference",
+                        "label": "CIP100:reference-label",
+                        "uri": "CIP100:reference-uri",
+                        "referenceHash": {
+                            "@id": "CIP108:referenceHash",
+                            "@context": {
+                                "hashDigest": "CIP108:hashDigest",
+                                "hashAlgorithm": "CIP100:hashAlgorithm"
+                            }
+                        }
+                    }
+                },
+                "title": "CIP108:title",
+                "abstract": "CIP108:abstract",
+                "motivation": "CIP108:motivation",
+                "rationale": "CIP108:rationale"
+            }
+        },
+        "authors": {
+            "@id": "CIP100:authors",
+            "@container": "@set",
+            "@context": {
+                "name": "http://xmlns.com/foaf/0.1/name",
+                "witness": {
+                    "@id": "CIP100:witness",
+                    "@context": {
+                        "witnessAlgorithm": "CIP100:witnessAlgorithm",
+                        "publicKey": "CIP100:publicKey",
+                        "signature": "CIP100:signature"
+                    }
+                }
+            }
+        }
+    },
+    "authors": [],
+    "hashAlgorithm": "blake2b-256",
+    "body": {
+        "abstract": "Project Nova submitted a request for 146,000,000 Ada within the hashed proposal. In the details of the proposal metadata, the submitter has defined 149,000,000,000,000 Ada. Given these amounts do not match, the GA is found unconstitutional. The submitter may rectify by re-submitting with corrected metadata of the proposal. To properly assess the presence of an administrator, the submitter should provide more information about the administrator that is verifiable by the broader ecosystem."
+    },
+    "rationale": "The GA is found to be unconstitutional. Project Nova submitted a request for 146,000,000 Ada within the hashed proposal. In the details of the proposal metadata, the submitter has defined 149,000,000,000,000 Ada. Given these amounts do not match, the GA is found unconstitutional. We reference the submitter to the constitution. The submitter may rectify by re-submitting with corrected metadata of the proposal.",
+    "references": [],
+    "title": "CCC Voting Rationale on Proposal to Fund 'Project Nova' - Targeted Strategic Initiatives for Ecosystem Advancement"
+}
